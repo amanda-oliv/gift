@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffc0cb; /* Fundo rosa claro */
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button#sim {
+    background-color: #32cd32;
+    color: white;
+}
+
+button#sim:hover {
+    background-color: #28a428;
+}
+
+button#nao {
+    background-color: #dc143c;
+    color: white;
+    position: relative; /* Necessário para mover o botão */
+}
+
+button#nao:hover {
+    background-color: #b01532;
+}
+
+a.button {
+    display: inline-block; /* Adiciona espaçamento ao redor do link */
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a.button:hover {
+    background-color: #0056b3;
+}
+
+#mensagem {
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.imagem-mensagem {
+    max-width: 30%; /* Limita a largura da imagem a 80% do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 20px 0; /* Espaçamento em cima e embaixo da imagem */
+    border-radius: 10px; /* Arredonda os cantos da imagem */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra para efeito de profundidade */
+}
